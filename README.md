@@ -12,7 +12,7 @@ here some snippet of how to create an autocomplete using angular.js and bootstra
 <button class="btn btn-sm btn-default" ng-repeat="item in model.ProductCategories" ng-show="model.ProductCategories.length>0" ng-click="removeCategory(item)">
     {{item.CategoryName}} <i class="fa fa-remove"></i>
 </button>
-        ```
+```
 ## The Controller
  ```
 $scope.loadCategories = function (query) {
@@ -29,4 +29,4 @@ $scope.removeCategory = function (item) {
     var index=$scope.model.ProductCategories.indexOf(item);
     $scope.model.ProductCategories.splice(index, 1);
 };
-         ```
+```
