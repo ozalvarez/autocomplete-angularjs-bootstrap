@@ -1,5 +1,5 @@
 # autocomplete-angularjs-bootstrap
-here some snippet of how to create an autocomplete using angular.js and bootstrap
+Here some snippet of how to create an autocomplete using angular.js and bootstrap. You don't need to add external libraries
 
 ## The View
 ```
