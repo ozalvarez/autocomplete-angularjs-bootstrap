@@ -30,3 +30,10 @@ $scope.removeCategory = function (item) {
     $scope.model.ProductCategories.splice(index, 1);
 };
 ```
+## The CSS
+ ```
+ .list-group-autocomplete{
+    position:fixed; 
+    z-index:100;
+}
+ ```
